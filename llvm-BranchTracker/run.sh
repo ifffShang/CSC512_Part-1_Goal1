@@ -15,7 +15,7 @@ cd ..
 cc -c rtlib.c
 
 # Step 5: Compile fileX.c with the clang plugin
-clang -fpass-plugin='build/skeleton/SkeletonPass.so' -c test1.c -g
+clang -fpass-plugin='build/skeleton/BranchTrackerPass.so' -c test1.c -g
 
 # Step 6: Link the object files and create the executable
 cc test1.o rtlib.o
