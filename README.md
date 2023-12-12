@@ -72,10 +72,10 @@ br_3
 
 ## Goal 2 find the number of instructions:
 ## count instructions run by 
-
+```
 chmod +x get_instructions.sh
 ./get_instructions.sh
-
+```
 ## output: 
 check "Collected" number
 
