@@ -1,7 +1,8 @@
 ## Goal 1 run by:
+```
 $ chmod +x run.sh
 $ ./run.sh
-
+```
 ## Manually Compile & Run
 ```
 $ mkdir build
